@@ -2,13 +2,13 @@
 //testes com IF
 // var idade = 18;
 //usando o prompt
-var idade  = prompt("Qual é a sua idade?");
+// var idade  = prompt("Qual é a sua idade?");
 
-if (idade >= 18){
-  console.log("maior de idade");
-  }else{
-    console.log("menor de idade");
-  };
+// if (idade >= 18){
+//   console.log("maior de idade");
+//   }else{
+//     console.log("menor de idade");
+//   };
 
 
 // var lista = ["maça", "pêra", "laranja"];
