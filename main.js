@@ -1,4 +1,15 @@
 
+//testes com IF
+// var idade = 18;
+//usando o prompt
+var idade  = prompt("Qual é a sua idade?");
+
+if (idade >= 18){
+  console.log("maior de idade");
+  }else{
+    console.log("menor de idade");
+  };
+
 
 // var lista = ["maça", "pêra", "laranja"];
 // console.log(lista);
@@ -17,16 +28,16 @@
 // //Join util para alterar o simbolo de separação dos itens do array
 // console.log(lista.join(" => "));
 
-//dicionario no array 
-var fruta = {nome:"maça", cor:"vermelha"};
-console.log(fruta.nome);
-console.log(fruta.cor);
+// //dicionario no array 
+// var fruta = {nome:"maça", cor:"vermelha"};
+// console.log(fruta.nome);
+// console.log(fruta.cor);
 
-// lista de dicionários no array
-var frutas = [{nome:"maça", cor:"vermelha"}, {nome:"uva", cor:"roxa"}, {nome:"abacate", cor:"verde"}];
-console.log(frutas);
-console.log(frutas[1].nome);
-console.log(frutas[1].cor);
+// // lista de dicionários no array
+// var frutas = [{nome:"maça", cor:"vermelha"}, {nome:"uva", cor:"roxa"}, {nome:"abacate", cor:"verde"}];
+// console.log(frutas);
+// console.log(frutas[1].nome);
+// console.log(frutas[1].cor);
 
 // var nome = "Marcelo Ceribelli";
 // var idade = 29;
