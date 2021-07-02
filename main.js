@@ -10,12 +10,18 @@
 //   };
 
 //trabalhando com While
-var count = 0;
-while (count < 5) {
+// var count = 0;
+// while (count < 5) {
+//   console.log(count);
+//   // count = count + 1;
+//   //fica melhor usando o count++
+//   count++;
+// }
+
+//teste com FOR
+var count;
+for (count = 0; count <= 5; count++) {
   console.log(count);
-  // count = count + 1;
-  //fica melhor usando o count++
-  count++;
 }
 
 // var lista = ["maça", "pêra", "laranja"];
