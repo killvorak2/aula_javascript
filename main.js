@@ -2,13 +2,32 @@
 function soma(n1, n2) {
   return n1 + n2;
 }
-function setReplace(frase, nome, novo_nome) {
-  //obs => é case sensitive
-  return frase.replace(nome, novo_nome);
+
+var validar = true;
+
+function validaIdade(idade) {
+  if (idade >= 18) {
+    validar = true;
+  } else {
+    validar = false;
+  }
+  return validar;
 }
 
-alert(soma(5, 10));
-alert(setReplace("Vai Japão", "Japão", "Brasil"));
+var idade = prompt("Qual a sua idade?");
+//funcionou sem o "validar" ser variável global
+console.log(validaIdade(idade));
+//para funcionar é necessário "validar", ser variável global
+validaIdade(idade);
+console.log(validar);
+
+// function setReplace(frase, nome, novo_nome) {
+//   //obs => é case sensitive
+//   return frase.replace(nome, novo_nome);
+// }
+
+// alert(soma(5, 10));
+// alert(setReplace("Vai Japão", "Japão", "Brasil"));
 
 // // trabalhando com datas
 // var d = new Date();
