@@ -1,25 +1,54 @@
-//trabalhando com funções
-function soma(n1, n2) {
-  return n1 + n2;
+//trabalhando com botão no index
+function clicou() {
+  //através do innerHtml posso transferir qualquer coisa
+  document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
+}
+//abre em outra pagina
+function redirecionar() {
+  window.open("https://youtu.be/NoKqKjTUMw0");
+}
+//abre na mesma pagina
+function redirecionar2() {
+  window.location.href = "https://youtu.be/NoKqKjTUMw0";
 }
 
-var validar = true;
-
-function validaIdade(idade) {
-  if (idade >= 18) {
-    validar = true;
-  } else {
-    validar = false;
-  }
-  return validar;
+//testando com mouse over
+function redirecionar3(elemento) {
+  elemento.innerHTML = "O texto mudou!!!";
 }
 
-var idade = prompt("Qual a sua idade?");
-//funcionou sem o "validar" ser variável global
-console.log(validaIdade(idade));
-//para funcionar é necessário "validar", ser variável global
-validaIdade(idade);
-console.log(validar);
+//testar onload
+function load() {
+  alert("pagina carregada");
+}
+
+//testando onchange
+function funcaoChange(elemento) {
+  console.log(elemento.value);
+}
+
+// //trabalhando com funções
+// function soma(n1, n2) {
+//   return n1 + n2;
+// }
+
+// var validar = true;
+
+// function validaIdade(idade) {
+//   if (idade >= 18) {
+//     validar = true;
+//   } else {
+//     validar = false;
+//   }
+//   return validar;
+// }
+
+// var idade = prompt("Qual a sua idade?");
+// //funcionou sem o "validar" ser variável global
+// console.log(validaIdade(idade));
+// //para funcionar é necessário "validar", ser variável global
+// validaIdade(idade);
+// console.log(validar);
 
 // function setReplace(frase, nome, novo_nome) {
 //   //obs => é case sensitive
