@@ -1,3 +1,22 @@
+// trabalhando com datas
+var d = new Date();
+// um timestamp completo
+console.log(d);
+//somente o dia do mes no calendario
+console.log(d.getDate());
+//qual dia representa numericamente na semana
+console.log(d.getDay());
+// ano completo
+console.log(d.getFullYear());
+// somente retorno da hora - localtime
+console.log(d.getHours());
+// somente minutos
+console.log(d.getMinutes());
+//mês - lembrando base 0
+console.log(d.getMonth() + 1);
+//diferença de timezone em minutos
+console.log(d.getTimezoneOffset());
+
 //testes com IF
 // var idade = 18;
 //usando o prompt
@@ -19,10 +38,10 @@
 // }
 
 //teste com FOR
-var count;
-for (count = 0; count <= 5; count++) {
-  console.log(count);
-}
+// var count;
+// for (count = 0; count <= 5; count++) {
+//   console.log(count);
+// }
 
 // var lista = ["maça", "pêra", "laranja"];
 // console.log(lista);
