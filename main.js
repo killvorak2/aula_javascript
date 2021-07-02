@@ -1,21 +1,33 @@
-// trabalhando com datas
-var d = new Date();
-// um timestamp completo
-console.log(d);
-//somente o dia do mes no calendario
-console.log(d.getDate());
-//qual dia representa numericamente na semana
-console.log(d.getDay());
-// ano completo
-console.log(d.getFullYear());
-// somente retorno da hora - localtime
-console.log(d.getHours());
-// somente minutos
-console.log(d.getMinutes());
-//mês - lembrando base 0
-console.log(d.getMonth() + 1);
-//diferença de timezone em minutos
-console.log(d.getTimezoneOffset());
+//trabalhando com funções
+function soma(n1, n2) {
+  return n1 + n2;
+}
+function setReplace(frase, nome, novo_nome) {
+  //obs => é case sensitive
+  return frase.replace(nome, novo_nome);
+}
+
+alert(soma(5, 10));
+alert(setReplace("Vai Japão", "Japão", "Brasil"));
+
+// // trabalhando com datas
+// var d = new Date();
+// // um timestamp completo
+// console.log(d);
+// //somente o dia do mes no calendario
+// console.log(d.getDate());
+// //qual dia representa numericamente na semana
+// console.log(d.getDay());
+// // ano completo
+// console.log(d.getFullYear());
+// // somente retorno da hora - localtime
+// console.log(d.getHours());
+// // somente minutos
+// console.log(d.getMinutes());
+// //mês - lembrando base 0
+// console.log(d.getMonth() + 1);
+// //diferença de timezone em minutos
+// console.log(d.getTimezoneOffset());
 
 //testes com IF
 // var idade = 18;
