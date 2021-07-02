@@ -1,1 +1,15 @@
-alert("Meu primeiro JS!!!");
+var nome = "Marcelo Ceribelli";
+var idade = 29;
+var idade2 = 10;
+var frase = "Italia o melhor time do mundo!!";
+//alert(nome + " tem " + idade + " anos" );
+//alert(idade + idade2);
+console.log(nome);
+console.log(idade + idade2);
+console.log(frase);
+console.log(frase.replace("Italia", "Alemanha"));
+console.log(frase.toLocaleUpperCase());
+console.log(frase.toLocaleLowerCase());
+console.log(frase.endsWith("mundo"));
+console.log(frase.endsWith("!"));
+console.log(frase.length);
