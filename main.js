@@ -1,8 +1,6 @@
-
 //testes com IF
 // var idade = 18;
 //usando o prompt
-<<<<<<< HEAD
 // var idade  = prompt("Qual é a sua idade?");
 
 // if (idade >= 18){
@@ -10,16 +8,15 @@
 //   }else{
 //     console.log("menor de idade");
 //   };
-=======
-var idade  = prompt("Qual é a sua idade?");
 
-if (idade >= 18){
-  console.log("maior de idade");
-  }else{
-    console.log("menor de idade");
-  };
->>>>>>> 83ea109a2c6e1e1c19928d94308ba35324268bfb
-
+//trabalhando com While
+var count = 0;
+while (count < 5) {
+  console.log(count);
+  // count = count + 1;
+  //fica melhor usando o count++
+  count++;
+}
 
 // var lista = ["maça", "pêra", "laranja"];
 // console.log(lista);
@@ -38,7 +35,7 @@ if (idade >= 18){
 // //Join util para alterar o simbolo de separação dos itens do array
 // console.log(lista.join(" => "));
 
-// //dicionario no array 
+// //dicionario no array
 // var fruta = {nome:"maça", cor:"vermelha"};
 // console.log(fruta.nome);
 // console.log(fruta.cor);
